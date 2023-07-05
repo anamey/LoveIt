@@ -121,7 +121,7 @@
             </noscript>
         {{- end -}} -->
 
-        {{- /* utterances Comment System */ -}}
+        <!-- {{- /* utterances Comment System */ -}}
         {{- $utterances := $comment.utterances | default dict -}}
         {{- if $utterances.enable -}}
             <div id="utterances" class="comment"></div>
@@ -133,7 +133,7 @@
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
             </noscript>
-        {{- end -}}
+        {{- end -}} -->
 
         {{- /* giscus Comment System */ -}}
         {{- $giscus := $comment.giscus | default dict -}}
