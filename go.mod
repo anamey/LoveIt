@@ -1,3 +1,3 @@
-module github.com/dillonzq/LoveIt
+module github.com/anamey/LoveIt
 
 go 1.18
