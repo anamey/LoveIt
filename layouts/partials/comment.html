@@ -2,6 +2,15 @@
 {{- $fingerprint := .Scratch.Get "fingerprint" -}}
 {{- $comment := .Site.Params.page.comment | default dict -}}
 {{- $commentConfig := dict -}}
+<div id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="anamey/myblog-comment-storage"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    </div>
 
 {{- if $comment.enable -}}
     <div id="comments">
